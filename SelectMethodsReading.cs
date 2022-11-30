@@ -1,4 +1,6 @@
-﻿namespace ImportConfiguration
+using System;
+
+namespace ImportConfiguration
 {
     /// <summary>
     ///     Класс условий для выбора метода
@@ -6,16 +8,16 @@
     internal class SelectMethodsReading: DataDirectory
     {
         /// <summary>
-        ///     Выбор метода для считывания
+        ///     Выбор метода для считывания файла
         /// </summary>
         /// <param name="format)"> Введеный пользователем формат </param>
         public static void FormatSelection(string format)
         {
-            if (format == "xml")
+            if (string.Equals(format, "xml", StringComparison.CurrentCultureIgnoreCase))
             {
                 ImportDataDirectoryXML.ImportFormatXML();
             }
-            else if (format == ("csv"))
+            else if (string.Equals(format, "csv", StringComparison.CurrentCultureIgnoreCase))
             {
                 ImportDataDirectoryCSV.ImportFormatCSV();
             }
