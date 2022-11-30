@@ -11,7 +11,7 @@ namespace ImportConfiguration
         /// <summary>
         ///     Текущий считываемый файл
         /// </summary>
-        public static string currentFile { set; get; }
+        public static string CurrentFile { set; get; }
 
         /// <summary>
         ///     Выбор формата для считывания
@@ -22,7 +22,7 @@ namespace ImportConfiguration
 
             foreach (var file in Directory.EnumerateFiles(mainPath, ($"*.{fileFormat}")))
             {
-                currentFile = file;
+                CurrentFile = file;
 
                 SelectMethodsReading.FormatSelection(fileFormat);
             }
