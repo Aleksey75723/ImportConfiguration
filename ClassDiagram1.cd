@@ -30,32 +30,25 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ImportConfiguration.DataDirectory">
-    <Position X="4.5" Y="2.75" Width="1.5" />
+  <Class Name="ImportConfiguration.ImportData">
+    <Position X="3.5" Y="2" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
-      <FileName>DataDirectory.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAACAAIAAQ=</HashCode>
+      <FileName>ImportData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ImportConfiguration.ImportDataDirectoryXML">
-    <Position X="2.25" Y="4.75" Width="1.5" />
+  <Class Name="ImportConfiguration.ImportDataXml">
+    <Position X="2" Y="4.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
-      <FileName>ImportDataDirectoryXML.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ImportDataXml.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ImportConfiguration.ImportDataDirectoryCSV">
-    <Position X="4.5" Y="4.75" Width="1.5" />
+  <Class Name="ImportConfiguration.ImportDataCsv">
+    <Position X="4.75" Y="4.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ImportDataDirectoryCSV.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ImportConfiguration.SelectMethodsReading">
-    <Position X="6.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>SelectMethodsReading.cs</FileName>
+      <FileName>ImportDataCsv.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="ImportConfiguration.IData">
