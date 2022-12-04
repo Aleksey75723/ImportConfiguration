@@ -14,7 +14,7 @@ namespace ImportConfiguration
             var configurationXML = new ConfigurationsDataXML();
 
             var instanceDeserialize = new XmlSerializer(typeof(ConfigurationsDataXML));
-            using (var streamReader = new StreamReader(currentFile))
+            using (var streamReader = new StreamReader(CurrentFile))
             {
                 configurationXML = (ConfigurationsDataXML)instanceDeserialize.Deserialize(streamReader);
             }
@@ -22,7 +22,7 @@ namespace ImportConfiguration
             #region ConsoleInformationXML
 
             //вывод информации на конслоль
-            Console.WriteLine($"{currentFile}");
+            Console.WriteLine($"{CurrentFile}");
             Console.WriteLine($"{configurationXML.Name}");
             Console.WriteLine($"{configurationXML.Description}");
             //вывод всех значений

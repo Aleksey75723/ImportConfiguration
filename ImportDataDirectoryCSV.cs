@@ -10,8 +10,8 @@ namespace ImportConfiguration
     {
         public static void ImportFormatCSV()
         {
-            Console.WriteLine($"\n{currentFile}");
-            using (var parser = new TextFieldParser(currentFile))
+            Console.WriteLine($"\n{CurrentFile}");
+            using (var parser = new TextFieldParser(CurrentFile))
             {
                 var delimiter = ";";
                 parser.TextFieldType = FieldType.Delimited;
