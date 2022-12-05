@@ -26,14 +26,14 @@ namespace ImportConfiguration
                     while (!parser.EndOfData)
                     {
                         var fields = parser.ReadFields();
-                        configurationsCSV.Name = fields[0];
-                        configurationsCSV.Description = fields[1];
+                        configurationsCSV.Configuration = fields[0];
+                        configurationsCSV.DescriptionConfiguration = fields[1];
 
                         #region ConsoleInformationCSV
 
                         //вывод информации на конслоль
-                        Console.WriteLine($"{configurationsCSV.Name}"
-                                          + $" {configurationsCSV.Description}");
+                        Console.WriteLine($"{configurationsCSV.Configuration}"
+                                          + $" {configurationsCSV.DescriptionConfiguration}");
                         //вывод всех значений
                         //foreach (var field in fields)
                         //{

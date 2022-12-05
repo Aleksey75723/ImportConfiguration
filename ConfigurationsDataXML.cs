@@ -6,7 +6,7 @@ namespace ImportConfiguration
     ///     Данные конфигурации файла формата XML
     /// </summary>
     [XmlRoot("config")]
-    public class ConfigurationsDataXML: IData
+    public class ConfigurationsDataXML: IDataXML
     {
         [XmlElement("name")]
         public string Name { get; set; }

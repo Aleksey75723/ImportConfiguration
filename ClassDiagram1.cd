@@ -14,22 +14,6 @@
       <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ImportConfiguration.ConfigurationsDataXML" BaseTypeListCollapsed="true">
-    <Position X="9.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConfigurationsDataXML.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="ImportConfiguration.ConfigurationsDataCSV" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConfigurationsDataCSV.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="ImportConfiguration.ImportData">
     <Position X="3.5" Y="2" Width="2.25" />
     <TypeIdentifier>
@@ -41,21 +25,44 @@
     <Position X="2" Y="4.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>ImportDataXml.cs</FileName>
+      <FileName>ImportDataXML.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ImportConfiguration.ImportDataCsv">
     <Position X="4.75" Y="4.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ImportDataCsv.cs</FileName>
+      <FileName>ImportDataCSV.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="ImportConfiguration.IData">
-    <Position X="10.5" Y="3" Width="1.5" />
+  <Class Name="ImportConfiguration.ConfigurationsDataCSV" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ConfigurationsDataCSV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ImportConfiguration.ConfigurationsDataXML" BaseTypeListCollapsed="true">
+    <Position X="13" Y="4" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IData.cs</FileName>
+      <FileName>ConfigurationsDataXML.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ImportConfiguration.IDataXML">
+    <Position X="13" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataXML.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ImportConfiguration.IDataCSV">
+    <Position X="9.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IDataCSV.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

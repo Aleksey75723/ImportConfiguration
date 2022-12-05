@@ -3,10 +3,10 @@
     /// <summary>
     ///     Данные конфигурации файла формата CSV
     /// </summary>
-    public class ConfigurationsDataCSV: IData
+    public class ConfigurationsDataCSV: IDataCSV
     {
-        public string Name { get; set; }
+        public string Configuration { get; set; }
 
-        public string Description { get; set; }
+        public string DescriptionConfiguration { get; set; }
     }
 }

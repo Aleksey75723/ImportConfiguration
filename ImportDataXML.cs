@@ -29,7 +29,7 @@ namespace ImportConfiguration
                 #region ConsoleInformationXML
 
                 //вывод информации на конслоль
-                Console.WriteLine($"{CurrentFile}");
+                Console.WriteLine($"\n{CurrentFile}");
                 Console.WriteLine($"{configurationXML.Name}");
                 Console.WriteLine($"{configurationXML.Description}");
                 //вывод всех значений
@@ -88,9 +88,9 @@ namespace ImportConfiguration
                         }
                     }
                 }
-            }
 
-            Console.WriteLine($"\n");
+                Console.WriteLine($"\n");
+            }
         }
     }
 }
